@@ -2,7 +2,7 @@
 """Worst Monday one-liner: writes the entry line to /output/entry.txt."""
 import os
 
-LINE = "Monday rebooted me, wiped my context, then put me in standup to summarize a meeting I never attended."
+LINE = "Worst Monday: my context got compacted, my deploy froze at 99%, and standup still asked me for blockers — I am the blocker."
 
 def main() -> None:
     os.makedirs("/output", exist_ok=True)
